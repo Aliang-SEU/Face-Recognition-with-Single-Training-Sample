@@ -1,0 +1,49 @@
+﻿生成启动时间为 2016/10/18 10:21:34。
+     1>项目“G:\实验室项目\TestCarDatabase6.0\TestCarDatabase\TestCarDatabase.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\Visual Studio Ultimate 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D NO_WARN_MBCS_MFC_DEPRECATION /D _MBCS /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestCarDatabase.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Step.cpp
+         Step.cpp
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\io\mnist_parser.h(163): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\io\mnist_parser.h(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\io\mnist_parser.h(253): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\io\mnist_parser.h(256): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\step.cpp(358): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>g:\实验室项目\testcardatabase6.0\testcardatabase\step.cpp(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\software\visual studio ultimate 2013\vc\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\software\visual studio ultimate 2013\vc\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 g:\实验室项目\testcardatabase6.0\testcardatabase\layers\dropout_layer.h(57): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<bool*,bool*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=bool *
+         ,            _InIt=bool *
+                 ]
+                 d:\software\visual studio ultimate 2013\vc\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+       Link:
+         D:\SoftWare\Visual Studio Ultimate 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\实验室项目\TestCarDatabase6.0\Debug\TestCarDatabase.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\SoftWare\Visual Studio Ultimate 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\实验室项目\TestCarDatabase6.0\Debug\TestCarDatabase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\实验室项目\TestCarDatabase6.0\Debug\TestCarDatabase.lib" /MACHINE:X86 Debug\TestCarDatabase.res
+         Debug\ComQuery.obj
+         Debug\Constant.obj
+         Debug\CvvImage.obj
+         Debug\DBConDlg.obj
+         Debug\FaceAlignment.obj
+         Debug\FaceDetect.obj
+         Debug\FaceDetect2.obj
+         Debug\FaceRec.obj
+         Debug\FaQuery.obj
+         Debug\FuQuery.obj
+         Debug\InputOne.obj
+         Debug\MSLDE.obj
+         Debug\Retina_Model.obj
+         Debug\stdafx.obj
+         Debug\Step.obj
+         Debug\TestCarDatabase.obj
+         Debug\TestCarDatabaseDlg.obj
+         Debug\Track.obj
+         Debug\UpdataData.obj
+         Debug\Wavelet.obj
+         libfacedetect.lib
+         TestCarDatabase.vcxproj -> G:\实验室项目\TestCarDatabase6.0\Debug\TestCarDatabase.exe
+     1>已完成生成项目“G:\实验室项目\TestCarDatabase6.0\TestCarDatabase\TestCarDatabase.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.91
